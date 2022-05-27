@@ -1,0 +1,114 @@
+$maincolor : rgb(100, 111, 212);
+$secondcolor: rgb(155, 163, 235);
+$textcolor : rgba(16, 20, 11, 0.811);
+
+@mixin allthesame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $secondcolor;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 35px;
+  height: 50px;
+  margin-left: 40px;
+  margin-top: 40px;
+  text-decoration: none;
+  color: $textcolor;
+}
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+}
+
+
+.top{
+  display: flex;
+  height: 200px;
+  
+}
+.Home{
+  @include allthesame();
+  width: 105px;
+  
+  
+  
+  
+}
+.about{
+  @include allthesame();
+  width: 140px;
+
+}
+.projects{
+  @include allthesame();
+  width: 190px;
+}
+
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: $maincolor;
+}
+
+.Elija{
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  color: $textcolor;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 170px;
+}
+.role{
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  color: $textcolor;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+  align-items: center;
+}
+
+
+.biggerbox{
+  @include flexCenter();
+  margin-top: 50px;
+}
+.cv{
+  @include flexCenter();
+  align-items: center;
+  background-color: rgb(36, 47, 155);
+  border-radius: 15px;
+  width: 240px;
+  height: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  color: $textcolor;
+  &:hover{
+      background-color: rgb(155, 163, 235);
+  } 
+}
+
+
+
+.icons{
+  @include flexCenter();
+  margin-top: 2.8%;
+  height: 50px;
+  width: 50px;
+  color: $textcolor;
+  margin-right: 50px;
+  margin-left: 50px;
+  
+}
+.bigbox{
+  @include flexCenter();
+  margin-top: 2%;
+  padding-left: 50px;
+  padding-right: 50px;
+}

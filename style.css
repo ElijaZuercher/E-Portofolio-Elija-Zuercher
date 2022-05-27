@@ -1,0 +1,175 @@
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 200px;
+}
+
+.Home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #9ba3eb;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 35px;
+  height: 50px;
+  margin-left: 40px;
+  margin-top: 40px;
+  text-decoration: none;
+  color: rgba(16, 20, 11, 0.811);
+  width: 105px;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #9ba3eb;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 35px;
+  height: 50px;
+  margin-left: 40px;
+  margin-top: 40px;
+  text-decoration: none;
+  color: rgba(16, 20, 11, 0.811);
+  width: 140px;
+}
+
+.projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #9ba3eb;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 35px;
+  height: 50px;
+  margin-left: 40px;
+  margin-top: 40px;
+  text-decoration: none;
+  color: rgba(16, 20, 11, 0.811);
+  width: 190px;
+}
+
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #646fd4;
+}
+
+.Elija {
+  margin-top: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: rgba(16, 20, 11, 0.811);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 170px;
+}
+
+.role {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: rgba(16, 20, 11, 0.811);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.biggerbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+
+.cv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #242f9b;
+  border-radius: 15px;
+  width: 240px;
+  height: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgba(16, 20, 11, 0.811);
+}
+
+.cv:hover {
+  background-color: #9ba3eb;
+}
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2.8%;
+  height: 50px;
+  width: 50px;
+  color: rgba(16, 20, 11, 0.811);
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.bigbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+/*# sourceMappingURL=style.css.map */
