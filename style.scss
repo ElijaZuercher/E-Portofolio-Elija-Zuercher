@@ -112,3 +112,31 @@ body {
   padding-left: 50px;
   padding-right: 50px;
 }
+
+.swiper-miper{
+    @include flexCenter();
+    margin: 50px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    height: 500px;
+}
+.top-p{
+    display: flex;
+    height: 100px;
+}
+.bigbox-p{
+    @include flexCenter();
+    
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.icons-p{
+    @include flexCenter();
+    margin-top: 2.5%;
+    height: 50px;
+    width: 50px;
+    color: $textcolor;
+    margin-right: 50px;
+    margin-left: 50px;
+    
+  }
