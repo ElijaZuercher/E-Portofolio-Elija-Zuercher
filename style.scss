@@ -1,5 +1,7 @@
 $maincolor : rgb(100, 111, 212);
 $secondcolor: rgb(155, 163, 235);
+$thirdcolor: #E49FE6;
+$fortcolor:rgb(219, 223, 253);
 $textcolor : rgba(16, 20, 11, 0.811);
 
 @mixin allthesame {
@@ -141,3 +143,25 @@ body {
     margin-left: 50px;
     
   }
+
+.txt-übermich{
+    @include flexCenter();
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $thirdcolor;
+    height: 400px;
+    width: 40%;
+    margin-top: 5%;
+    border-radius: 15px;
+
+}
+.überklasse{
+    display: flex;
+    justify-content: space-evenly;
+}
+.about-1{
+    @include allthesame();
+    width: 140px;
+    background-color: $fortcolor;
+}
