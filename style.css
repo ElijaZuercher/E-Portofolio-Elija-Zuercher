@@ -29,6 +29,10 @@
   width: 105px;
 }
 
+.Home:hover {
+  background-color: #E49FE6;
+}
+
 .about {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -52,6 +56,10 @@
   width: 140px;
 }
 
+.about:hover {
+  background-color: #E49FE6;
+}
+
 .projects {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -73,6 +81,10 @@
   text-decoration: none;
   color: rgba(16, 20, 11, 0.811);
   width: 190px;
+}
+
+.projects:hover {
+  background-color: #E49FE6;
 }
 
 html,
@@ -227,16 +239,20 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  display: flex;
+  display: block;
   justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #E49FE6;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  color: #E49FE6;
   height: 400px;
   width: 40%;
   margin-top: 5%;
   border-radius: 15px;
+  text-align: block;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .überklasse {
@@ -248,27 +264,100 @@ body {
           justify-content: space-evenly;
 }
 
-.about-1 {
+.Bild-Elija {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  display: flex;
+  justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #9ba3eb;
+  color: #E49FE6;
+  height: 400px;
+  width: 40%;
+  margin-top: 5%;
+  border-radius: 25px;
+}
+
+.wavinghand {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 40px;
+  height: 40px;
+}
+
+h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 40px;
+}
+
+.f {
+  color: #646fd4;
+}
+
+.icons-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #E49FE6;
+  border-radius: 40px;
+  width: 80px;
+  height: 80px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.übercontainer2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 730px;
+  margin-left: 6.6%;
+}
+
+.übercontainer3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 730px;
+  margin-left: 6.6%;
+}
+
+.texticons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80px;
+  height: 80px;
+  color: #E49FE6;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: 'Courier New', Courier, monospace;
-  border-radius: 15px;
   font-weight: bold;
-  font-size: 35px;
-  height: 50px;
-  margin-left: 40px;
-  margin-top: 40px;
-  text-decoration: none;
-  color: rgba(16, 20, 11, 0.811);
-  width: 140px;
-  background-color: #dbdffd;
+  font-size: 20px;
 }
 /*# sourceMappingURL=style.css.map */
