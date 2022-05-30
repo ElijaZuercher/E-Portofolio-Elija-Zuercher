@@ -1,8 +1,8 @@
-$maincolor : rgb(100, 111, 212);
-$secondcolor: rgb(155, 163, 235);
-$thirdcolor: #E49FE6;
+$maincolor : rgb(236, 229, 199);
+$secondcolor: rgb(194, 222, 209);
+$thirdcolor: rgb(53, 66, 89);
 $fortcolor:rgb(219, 223, 253);
-$textcolor : rgba(16, 20, 11, 0.811);
+$textcolor : #354259;
 
 @mixin allthesame {
   display: flex;
@@ -91,7 +91,7 @@ body {
 .cv{
   @include flexCenter();
   align-items: center;
-  background-color: rgb(36, 47, 155);
+  background-color: $secondcolor;
   border-radius: 15px;
   width: 240px;
   height: 50px;
@@ -101,7 +101,8 @@ body {
   text-decoration: none;
   color: $textcolor;
   &:hover{
-      background-color: rgb(155, 163, 235);
+      background-color: $thirdcolor;
+      color: white;
   } 
 }
 
@@ -118,11 +119,24 @@ body {
   
   
 }
+.fa-brands{
+  @include flexCenter();
+  margin-top: 2.8%;
+  height: 80px;
+  width: 77.5px;
+  color: $textcolor;
+  &:hover{
+    color: black;
+  }
+  
+  
+  
+}
 .bigbox{
   @include flexCenter();
   margin-top: 2%;
-  padding-left: 50px;
-  padding-right: 50px;
+  height: 100px;
+  
 }
 
 .swiper-miper{
@@ -157,7 +171,7 @@ body {
     @include flexCenter();
     display: block;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     color: $thirdcolor;
     height: 400px;
     width: 40%;
@@ -178,20 +192,21 @@ body {
 
 .Bild-Elija{
   @include flexCenter();
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
     color: $thirdcolor;
-    height: 400px;
+    height: 40%;
     width: 40%;
     margin-top: 5%;
-    border-radius: 25px;
+    align-items: center;
+}
+.bilderbild{
+  border-radius: 50%;
 }
 .wavinghand{
   align-self: center;
   width: 40px;
   height: 40px;
-  padding-left: 15px;
+  padding-left: 10px;
+  padding-right: 15px;
 }
 h1{
   display: flex;
