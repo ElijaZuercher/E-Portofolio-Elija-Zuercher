@@ -253,6 +253,7 @@ body {
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
   font-weight: bold;
+  line-height: 160%;
 }
 
 .überklasse {
@@ -273,9 +274,9 @@ body {
           justify-content: center;
   display: flex;
   justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   color: #E49FE6;
   height: 400px;
   width: 40%;
@@ -289,6 +290,7 @@ body {
       align-self: center;
   width: 40px;
   height: 40px;
+  padding-left: 15px;
 }
 
 h1 {

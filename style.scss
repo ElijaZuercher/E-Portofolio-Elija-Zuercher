@@ -167,6 +167,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     font-weight: bold;
+    line-height: 160%;
     
 }
 .überklasse{
@@ -179,7 +180,7 @@ body {
   @include flexCenter();
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     color: $thirdcolor;
     height: 400px;
     width: 40%;
@@ -190,6 +191,7 @@ body {
   align-self: center;
   width: 40px;
   height: 40px;
+  padding-left: 15px;
 }
 h1{
   display: flex;
