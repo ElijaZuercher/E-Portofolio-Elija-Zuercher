@@ -30,7 +30,8 @@
 }
 
 .Home:hover {
-  background-color: #E49FE6;
+  background-color: #354259;
+  color: white;
 }
 
 .about {
@@ -57,7 +58,8 @@
 }
 
 .about:hover {
-  background-color: #E49FE6;
+  background-color: #354259;
+  color: white;
 }
 
 .projects {
@@ -84,7 +86,8 @@
 }
 
 .projects:hover {
-  background-color: #E49FE6;
+  background-color: #354259;
+  color: white;
 }
 
 html,
@@ -380,5 +383,9 @@ h1 {
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   font-size: 20px;
+}
+
+.testh1 {
+  width: 300px;
 }
 /*# sourceMappingURL=style.css.map */

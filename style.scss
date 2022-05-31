@@ -34,7 +34,8 @@ $textcolor : #354259;
   @include allthesame();
   width: 105px;
   &:hover{
-    background-color: #E49FE6;
+    background-color: $textcolor;
+    color: white;;
   }
   
   
@@ -45,7 +46,8 @@ $textcolor : #354259;
   @include allthesame();
   width: 140px;
   &:hover{
-    background-color: #E49FE6;
+    background-color: $textcolor;
+    color: white;
   }
 
 }
@@ -53,7 +55,8 @@ $textcolor : #354259;
   @include allthesame();
   width: 190px;
   &:hover{
-    background-color: #E49FE6;
+    background-color: $textcolor;
+    color: white;
   }
 }
 
@@ -250,4 +253,7 @@ h1{
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   font-size: 20px;
+}
+.testh1{
+  width: 300px;
 }
