@@ -1,4 +1,8 @@
 @charset "UTF-8";
+* {
+  scroll-behavior: smooth;
+}
+
 .top {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -16,7 +20,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #c2ded1;
   font-family: 'Courier New', Courier, monospace;
   border-radius: 15px;
   font-weight: bold;
@@ -30,8 +33,7 @@
 }
 
 .Home:hover {
-  background-color: #354259;
-  color: white;
+  text-decoration: underline;
 }
 
 .about {
@@ -44,7 +46,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #c2ded1;
   font-family: 'Courier New', Courier, monospace;
   border-radius: 15px;
   font-weight: bold;
@@ -58,8 +59,7 @@
 }
 
 .about:hover {
-  background-color: #354259;
-  color: white;
+  text-decoration: underline;
 }
 
 .projects {
@@ -72,7 +72,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #c2ded1;
   font-family: 'Courier New', Courier, monospace;
   border-radius: 15px;
   font-weight: bold;
@@ -86,8 +85,7 @@
 }
 
 .projects:hover {
-  background-color: #354259;
-  color: white;
+  text-decoration: underline;
 }
 
 html,
@@ -108,7 +106,7 @@ body {
   color: #354259;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
-  font-size: 170px;
+  font-size: 140px;
 }
 
 .role {
@@ -134,7 +132,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 50px;
+  margin-top: 4%;
 }
 
 .cv {
@@ -202,7 +200,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 2%;
+  margin-top: 1%;
   height: 100px;
 }
 
@@ -387,5 +385,27 @@ h1 {
 
 .testh1 {
   width: 300px;
+}
+
+.sectionone {
+  background-color: #628884;
+  width: 90%;
+  height: 97%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  border-radius: 50px;
+  padding-bottom: 4%;
+}
+
+.sectiontwo {
+  background-color: #B9C7AC;
+  width: 90%;
+  height: 97%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  border-radius: 50px;
+  padding-bottom: 4%;
 }
 /*# sourceMappingURL=style.css.map */

@@ -4,11 +4,13 @@ $thirdcolor: rgb(53, 66, 89);
 $fortcolor:rgb(219, 223, 253);
 $textcolor : #354259;
 
+*{
+  scroll-behavior: smooth;
+}
 @mixin allthesame {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: $secondcolor;
   font-family: 'Courier New', Courier, monospace;
   border-radius: 15px;
   font-weight: bold;
@@ -34,8 +36,7 @@ $textcolor : #354259;
   @include allthesame();
   width: 105px;
   &:hover{
-    background-color: $textcolor;
-    color: white;;
+    text-decoration: underline;
   }
   
   
@@ -46,8 +47,7 @@ $textcolor : #354259;
   @include allthesame();
   width: 140px;
   &:hover{
-    background-color: $textcolor;
-    color: white;
+    text-decoration: underline;
   }
 
 }
@@ -55,8 +55,7 @@ $textcolor : #354259;
   @include allthesame();
   width: 190px;
   &:hover{
-    background-color: $textcolor;
-    color: white;
+    text-decoration: underline;
   }
 }
 
@@ -74,7 +73,7 @@ body {
   color: $textcolor;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
-  font-size: 170px;
+  font-size: 140px;
 }
 .role{
   margin-top: 25px;
@@ -89,7 +88,7 @@ body {
 
 .biggerbox{
   @include flexCenter();
-  margin-top: 50px;
+  margin-top: 4%;
 }
 .cv{
   @include flexCenter();
@@ -137,7 +136,7 @@ body {
 }
 .bigbox{
   @include flexCenter();
-  margin-top: 2%;
+  margin-top: 1%;
   height: 100px;
   
 }
@@ -256,4 +255,24 @@ h1{
 }
 .testh1{
   width: 300px;
+}
+.sectionone{
+  background-color: #628884;
+  width: 90%;
+  height: 97%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  border-radius: 50px;
+  padding-bottom: 4% ;
+}
+.sectiontwo{
+  background-color: #B9C7AC;
+  width: 90%;
+  height: 97%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  border-radius: 50px;
+  padding-bottom: 4% ;
 }
