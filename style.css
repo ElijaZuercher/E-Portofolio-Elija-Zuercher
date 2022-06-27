@@ -413,29 +413,91 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background-color: #4A4737;
+  margin-top: 5%;
+  height: 300px;
+}
+
+.footerlinks {
+  width: 50%;
+  height: 100%;
+}
+
+.footericons {
+  width: 60px;
+  height: 60px;
+}
+
+.oben {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.unten {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footerrechts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  height: 100%;
+  background-color: red;
+}
+
+.untern {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #4A4737;
-  margin-top: 5%;
-  height: 300px;
+  padding-top: 4%;
+  background-color: blue;
+  width: 50%;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 23px;
 }
 
-.footer-icons {
-  width: 80px;
-  height: 80px;
-  margin-right: 50px;
-}
-
-.untern {
+.rechts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  background-color: green;
+  width: 50%;
+  padding-top: 4%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */
