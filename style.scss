@@ -3,6 +3,10 @@ $secondcolor: rgb(194, 222, 209);
 $thirdcolor: rgb(53, 66, 89);
 $fortcolor:rgb(219, 223, 253);
 $textcolor : #354259;
+@font-face {
+  font-family: 'Nurom';
+  src: url(fonts/Nurom-Bold.ttf);
+}
 
 *{
   scroll-behavior: smooth;
@@ -281,7 +285,7 @@ h1{
   display: flex;
   background-color: #4A4737;
   margin-top: 5%;
-  height: 325px;
+  height: 120px;
   
 }
 .footerlinks{
@@ -290,15 +294,24 @@ h1{
   height: 100%;
 }
 .footericons{
-  width: 60px;
-  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  background-color: $textcolor;
+  border-radius: 15px;
   
+  
+}
+.footericons2{
+  width: 40px;
+  height: 40px;
   
 }
 .oben{
   display: flex;
-  
-  height: 50%;
+  height: 100%;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -312,8 +325,12 @@ h1{
 }
 .footerrechts{
   display: flex;
-  width: 50%;
-  height: 100%;
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  font-family: 'nurom';
+  font-size: 40px;
+  text-decoration: none;
   
 }
 .untern{
@@ -321,41 +338,95 @@ h1{
   align-items: baseline;
 }
 .links{
-  
-  align-items: center;
-  width: 50%;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 23px;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  background-color: #436870;
+  border-radius: 30px;
+  height:550px;
+  width: 25%;
+  font-family:'Nurom';
   font-weight: bold;
 }
 .linkstext{
-  margin-top: 23px;
+  margin-bottom: 3%;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to right,$maincolor);
+  background-size: 40% 4px;
+  background-repeat: no-repeat;
+  line-height: 80px;
+  background-position: bottom;
+  font-size: 40px;
+  color: #2F4858
 }
 .rechts{
   display: flex;
-  align-items: center;
-  padding-top: 23px;
+  justify-content: center;
+  padding-top: 8%;
+  padding-bottom: 3%;
 }
 .inputfield{
-  background-color: #2F4858;
+  background-color: #628884;
   border-radius: 5px;
   width: 250px;
-
-  height: 25px;
+  display: flex;
+  justify-content: center;
+  height: 26px;
   border: 0px;
   text-decoration: none;
-  font-size: 15px;
-  font-family: sans-serif;
-  color: white;
+  font-size: 20px;
+  font-family: 'nurom';
+  color: $maincolor
 }
 .rechtsüberklasse{
   width: 50%;
   height: 100%;
 }
-.inputfield2{
-  background-color: #2F4858;
-  border-radius: 5px;
-  width: 250px;
-  height: 60px;
+
+.submitbutton{
+  background-color: #EE9747;
+  width: 150px;
+  height: 26px;
   border: 0px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'nurom';
+  color: $maincolor;
+  padding-top: 4px;
+}
+::placeholder{
+  color: $maincolor;
+}
+.inputfield{
+  text-align: center;
+  padding-top: 4px;
+}
+.footerrechts2{
+  display: flex;
+  width: 325px;
+  height: 70px;
+  justify-content: center;
+  font-family: 'nurom';
+  font-size: 40px;
+  text-decoration: none;
+  align-items: center;
+  color: $maincolor;
+  background-color: $textcolor;
+  border-radius: 15px;
+  padding-top: 3px;
+
+}
+.iconcontact{
+  height: 50px;
+  width: 50px;
+  margin-left: 5%;
+}
+.footermooter{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
