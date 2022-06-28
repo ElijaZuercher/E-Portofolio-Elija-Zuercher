@@ -415,7 +415,7 @@ h1 {
   display: flex;
   background-color: #4A4737;
   margin-top: 5%;
-  height: 300px;
+  height: 325px;
 }
 
 .footerlinks {
@@ -460,7 +460,6 @@ h1 {
   display: flex;
   width: 50%;
   height: 100%;
-  background-color: red;
 }
 
 .untern {
@@ -470,34 +469,51 @@ h1 {
 }
 
 .links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 4%;
-  background-color: blue;
   width: 50%;
   font-family: 'Courier New', Courier, monospace;
   font-size: 23px;
+  font-weight: bold;
+}
+
+.linkstext {
+  margin-top: 23px;
 }
 
 .rechts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: green;
-  width: 50%;
-  padding-top: 4%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-top: 23px;
+}
+
+.inputfield {
+  background-color: #2F4858;
+  border-radius: 5px;
+  width: 250px;
+  height: 25px;
+  border: 0px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.rechtsüberklasse {
+  width: 50%;
+  height: 100%;
+}
+
+.inputfield2 {
+  background-color: #2F4858;
+  border-radius: 5px;
+  width: 250px;
+  height: 60px;
+  border: 0px;
 }
 /*# sourceMappingURL=style.css.map */
