@@ -29,7 +29,10 @@ $textcolor : #354259;
   display: flex;
   justify-content: center;
 }
-
+@mixin fonttitel {
+  font-family: 'nurom';
+  font-size: 50px;
+}
 
 .top{
   display: flex;
@@ -174,35 +177,41 @@ body {
   }
 
 .txt-übermich{
-    @include flexCenter();
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
     display: block;
     justify-content: center;
     align-items: center;
     color: $thirdcolor;
     height: 400px;
-    width: 40%;
-    margin-top: 5%;
-    border-radius: 15px;
-    text-align: block;
+    width: 50%;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     font-weight: bold;
-    line-height: 160%;
-    
+    line-height: 130%;
+    text-align: justify;
+	  text-align-last: none;
+    background-color: red;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 .überklasse{
     display: flex;
-    justify-content: space-evenly;
-    
+    justify-content: center
+}
+.klasse2kammern{
+  display: flex;
+  justify-content: center;
 }
 
 .Bild-Elija{
+  margin-top: 1%;
   @include flexCenter();
     color: $thirdcolor;
-    height: 40%;
-    width: 40%;
-    margin-top: 5%;
+    width: 50%;
     align-items: center;
+    background-color: green;
 }
 .bilderbild{
   border-radius: 50%;
@@ -261,7 +270,6 @@ body {
   margin-right: 5%;
   margin-top: 3%;
   border-radius: 50px;
-  padding-bottom: 5% ;
 }
 .sectiontwo{
   background-color: #B9C7AC;
@@ -271,7 +279,6 @@ body {
   margin-right: 5%;
   margin-top: 3%;
   border-radius: 50px;
-  padding-bottom: 5% ;
 }
 .sectionthree{
   display: flex;
@@ -410,22 +417,37 @@ body {
 }
 .footerrechts2{
   display: flex;
-  width: 325px;
+  width: 200px;
   height: 70px;
   justify-content: center;
   font-family: 'nurom';
-  font-size: 40px;
+  font-size: 20px;
   text-decoration: none;
   align-items: center;
-  color: $maincolor;
-  background-color: $textcolor;
-  border-radius: 15px;
-  padding-top: 3px;
+  color: white;
 
 }
+.footerrechts3{
+  display: flex;
+  width: 200px;
+  height: 70px;
+  justify-content: center;
+  font-family: 'nurom';
+  font-size: 30px;
+  text-decoration: none;
+  align-items: center;
+  color: white;
+  border-radius: 10px;
+  border: 4px;
+  border-color: $textcolor;
+  border-style: solid;
+  background-color: #4A4737;
+
+}
+
 .iconcontact{
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
   margin-left: 5%;
 }
 .iconcontact2{
@@ -451,11 +473,10 @@ body {
   
 }
 .Titelh1{
+  @include fonttitel();
   margin-top: 8%;
   margin-left: 20%;
   display: flex;
-  font-family: 'nurom';
-  font-size: 50px;
 }
 .projektcontainer2{
   display: block;
@@ -484,9 +505,19 @@ body {
   justify-content: center;
   align-items: center;
   color: #2F4858;
+  text-align: justify;
+	text-align-last: none;
 }
 .collabpicture{
   width: 525px;
   height: 525px;
   border-radius: 15px;
+}
+.titelabout{
+  @include fonttitel();
+  width: 700px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

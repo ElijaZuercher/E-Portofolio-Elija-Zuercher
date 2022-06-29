@@ -262,6 +262,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 1%;
   display: block;
   justify-content: center;
   -webkit-box-align: center;
@@ -269,26 +270,38 @@ body {
           align-items: center;
   color: #354259;
   height: 400px;
-  width: 40%;
-  margin-top: 5%;
-  border-radius: 15px;
-  text-align: block;
+  width: 50%;
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
   font-weight: bold;
-  line-height: 160%;
+  line-height: 130%;
+  text-align: justify;
+  text-align-last: none;
+  background-color: red;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
 .überklasse {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.klasse2kammern {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .Bild-Elija {
+  margin-top: 1%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -296,12 +309,11 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   color: #354259;
-  height: 40%;
-  width: 40%;
-  margin-top: 5%;
+  width: 50%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: green;
 }
 
 .bilderbild {
@@ -387,7 +399,6 @@ body {
   margin-right: 5%;
   margin-top: 3%;
   border-radius: 50px;
-  padding-bottom: 5%;
 }
 
 .sectiontwo {
@@ -398,7 +409,6 @@ body {
   margin-right: 5%;
   margin-top: 3%;
   border-radius: 50px;
-  padding-bottom: 5%;
 }
 
 .sectionthree {
@@ -602,26 +612,46 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 325px;
+  width: 200px;
   height: 70px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   font-family: 'nurom';
-  font-size: 40px;
+  font-size: 20px;
   text-decoration: none;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #ece5c7;
-  background-color: #354259;
-  border-radius: 15px;
-  padding-top: 3px;
+  color: white;
+}
+
+.footerrechts3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 200px;
+  height: 70px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'nurom';
+  font-size: 30px;
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  border-radius: 10px;
+  border: 4px;
+  border-color: #354259;
+  border-style: solid;
+  background-color: #4A4737;
 }
 
 .iconcontact {
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
   margin-left: 5%;
 }
 
@@ -663,13 +693,13 @@ body {
 }
 
 .Titelh1 {
+  font-family: 'nurom';
+  font-size: 50px;
   margin-top: 8%;
   margin-left: 20%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: 'nurom';
-  font-size: 50px;
 }
 
 .projektcontainer2 {
@@ -711,11 +741,29 @@ body {
       -ms-flex-align: center;
           align-items: center;
   color: #2F4858;
+  text-align: justify;
+  text-align-last: none;
 }
 
 .collabpicture {
   width: 525px;
   height: 525px;
   border-radius: 15px;
+}
+
+.titelabout {
+  font-family: 'nurom';
+  font-size: 50px;
+  width: 700px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */
