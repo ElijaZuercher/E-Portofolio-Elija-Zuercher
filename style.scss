@@ -214,14 +214,7 @@ body {
   padding-left: 10px;
   padding-right: 15px;
 }
-h1{
-  display: flex;
-  align-items: center;
-  font-size: 40px;
-}
-.f{
-  color: $maincolor;
-}
+
 .icons-about{
   @include flexCenter();
   background-color: $thirdcolor;
@@ -235,7 +228,7 @@ h1{
   justify-content: space-evenly;
   
   width: 730px;
-  
+  margin-top: 3%;
   margin-left: 6.6%;
 }
 .übercontainer3{
@@ -263,7 +256,7 @@ h1{
 .sectionone{
   background-color: #628884;
   width: 90%;
-  height: 97%;
+  height: 600px;
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 3%;
@@ -273,12 +266,23 @@ h1{
 .sectiontwo{
   background-color: #B9C7AC;
   width: 90%;
-  height: 97%;
+  height: 600px;
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 3%;
   border-radius: 50px;
-  padding-bottom: 4% ;
+  padding-bottom: 5% ;
+}
+.sectionthree{
+  display: flex;
+  background-color: #436870;
+  width: 90%;
+  height: 600px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  border-radius: 50px;
+  
 }
 
 .footer{
@@ -424,9 +428,65 @@ h1{
   width: 50px;
   margin-left: 5%;
 }
+.iconcontact2{
+  height: 50px;
+  width: 50px;
+  margin-left: 7%;
+}
 .footermooter{
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.linkerteil{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%
+}
+.rechterteil{
+  width: 50%;
+  
+}
+.Titelh1{
+  margin-top: 8%;
+  margin-left: 20%;
+  display: flex;
+  font-family: 'nurom';
+  font-size: 50px;
+}
+.projektcontainer2{
+  display: block;
+  width: 300px;
+  height: 320px;
+  margin-left: 20%;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 21px;
+}
+.showmore{
+  background-color: $maincolor;
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  height: 50px;
+  margin-left: 43%;
+  font-family: 'nurom';
+  font-size: 20px;
+  margin-top: 4%;
+  border-radius: 15px;
+  font-weight: bold;
+}
+.textdecoration-none{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2F4858;
+}
+.collabpicture{
+  width: 525px;
+  height: 525px;
+  border-radius: 15px;
 }
