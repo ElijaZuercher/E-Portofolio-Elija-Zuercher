@@ -11,20 +11,7 @@ $textcolor : #354259;
 *{
   scroll-behavior: smooth;
 }
-@mixin allthesame {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Courier New', Courier, monospace;
-  border-radius: 15px;
-  font-weight: bold;
-  font-size: 35px;
-  height: 50px;
-  margin-left: 40px;
-  margin-top: 40px;
-  text-decoration: none;
-  color: $textcolor;
-}
+
 @mixin flexCenter {
   display: flex;
   justify-content: center;
@@ -35,15 +22,21 @@ $textcolor : #354259;
 }
 
 .top{
-  display: flex;
-  height: 200px;
-  
+  display: flex; 
+  margin-left: 5%; 
+  margin-right: 5%;
+  margin-top: 3%;
 }
 .Home{
-  @include allthesame();
-  width: 105px;
+  align-items: center;
+  font-family: 'nurom';
+  text-decoration: none;
+  color: $textcolor;
+  font-weight: bold;
+  font-size: 35px;
   &:hover{
     text-decoration: underline;
+    
   }
   
   
@@ -51,16 +44,24 @@ $textcolor : #354259;
   
 }
 .about{
-  @include allthesame();
-  width: 140px;
+  align-items: center;
+  font-family: 'nurom';
+  text-decoration: none;
+  color: $textcolor;
+  font-weight: bold;
+  font-size: 35px;
   &:hover{
     text-decoration: underline;
   }
 
 }
 .projects{
-  @include allthesame();
-  width: 190px;
+  align-items: center;
+  font-family: 'nurom';
+  text-decoration: none;
+  color: $textcolor;
+  font-weight: bold;
+  font-size: 35px;
   &:hover{
     text-decoration: underline;
   }
@@ -74,13 +75,15 @@ body {
 }
 
 .Elija{
-  margin-top: 1%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding-top: 8%;
   color: $textcolor;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   font-size: 140px;
+  color: $textcolor;
 }
 .role{
   margin-top: 25px;
@@ -179,30 +182,35 @@ body {
 .txt-übermich{
     display: flex;
     justify-content: center;
-    margin-top: 1%;
-    display: block;
-    justify-content: center;
     align-items: center;
     color: $thirdcolor;
     height: 400px;
     width: 50%;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: bold;
     line-height: 130%;
     text-align: justify;
 	  text-align-last: none;
-    background-color: red;
+    
     padding-left: 4%;
     padding-right: 4%;
 }
 .überklasse{
     display: flex;
-    justify-content: center
+    justify-content: center;
+    height: 19%;
+}
+.klasse1kammer{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin-top: 1%;
 }
 .klasse2kammern{
   display: flex;
   justify-content: center;
+  margin-top: 0px;
 }
 
 .Bild-Elija{
@@ -211,15 +219,14 @@ body {
     color: $thirdcolor;
     width: 50%;
     align-items: center;
-    background-color: green;
 }
 .bilderbild{
   border-radius: 50%;
 }
 .wavinghand{
   align-self: center;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   padding-left: 10px;
   padding-right: 15px;
 }
@@ -337,7 +344,7 @@ body {
 .footerrechts{
   display: flex;
   width: 100%;
-  height: 50px;
+  height: 60%;
   justify-content: center;
   font-family: 'nurom';
   font-size: 40px;
@@ -353,7 +360,7 @@ body {
   margin-bottom: 8%;
   background-color: #436870;
   border-radius: 30px;
-  height:550px;
+  height:100%;
   width: 25%;
   font-family:'Nurom';
   font-weight: bold;
@@ -407,6 +414,7 @@ body {
   font-family: 'nurom';
   color: $maincolor;
   padding-top: 4px;
+  margin-bottom: 4%;
 }
 ::placeholder{
   color: $maincolor;
@@ -418,31 +426,29 @@ body {
 .footerrechts2{
   display: flex;
   width: 200px;
-  height: 70px;
   justify-content: center;
   font-family: 'nurom';
   font-size: 20px;
   text-decoration: none;
-  align-items: center;
   color: white;
 
 }
 .footerrechts3{
   display: flex;
   width: 200px;
-  height: 70px;
-  justify-content: center;
-  font-family: 'nurom';
-  font-size: 30px;
-  text-decoration: none;
+  height: 40px;
   align-items: center;
   color: white;
   border-radius: 10px;
   border: 4px;
   border-color: $textcolor;
   border-style: solid;
-  background-color: #4A4737;
+  margin-top: 4%;
 
+}
+.topg{
+  width: 170px;
+  height: 35px;
 }
 
 .iconcontact{
@@ -456,7 +462,7 @@ body {
   margin-left: 7%;
 }
 .footermooter{
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -477,14 +483,15 @@ body {
   margin-top: 8%;
   margin-left: 20%;
   display: flex;
+  color: #8AA897;
 }
 .projektcontainer2{
   display: block;
-  width: 300px;
-  height: 320px;
+  width: 320px;
   margin-left: 20%;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 21px;
+  font-size: 23px;
+  color: #8AA897;
 }
 .showmore{
   background-color: $maincolor;
@@ -492,7 +499,6 @@ body {
   justify-content: center;
   width: 150px;
   height: 50px;
-  margin-left: 43%;
   font-family: 'nurom';
   font-size: 20px;
   margin-top: 4%;
@@ -515,9 +521,10 @@ body {
 }
 .titelabout{
   @include fonttitel();
-  width: 700px;
+  width: 100%;
   height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: $textcolor;
 }
