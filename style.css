@@ -81,7 +81,7 @@ body {
           align-items: center;
   padding-top: 8%;
   color: #354259;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'nurom';
   font-weight: bold;
   font-size: 140px;
   color: #354259;
@@ -96,7 +96,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   color: #354259;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'nurom';
   font-size: 50px;
   -webkit-box-align: center;
       -ms-flex-align: center;
